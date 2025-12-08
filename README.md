@@ -1,1 +1,1 @@
-# catchfish.github.io
+# this is a catchfish game demo!
