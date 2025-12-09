@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>简单 H5 页面</title>
+    <title>Bear-bear</title>
     <style>
         body {
             margin: 0;
@@ -17,7 +17,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 24px;
+        }
+        main img {
+            max-width: 100%;
+            max-height: 80vh; /* 保证图片不超出屏幕高度 */
+            object-fit: contain;
         }
         footer {
             position: fixed;
@@ -39,7 +43,7 @@
 </head>
 <body>
     <main>
-        欢迎访问我的简单 H5 页面
+        <img src="1.png" alt="展示图片">
     </main>
     <footer>
         <a href="https://beian.miit.gov.cn" target="_blank">鄂ICP备17006427号</a>
